@@ -13,7 +13,7 @@ app.use(helmet());
 
 mongoose.set('strictQuery', true);
 mongoose.connect(
-  "mongodb+srv://dev:B7CAnVjh5BEUWPtu@cluster0.pxyhron.mongodb.net/todos",
+  "mongodb+srv://dev:<password>@cluster0.pxyhron.mongodb.net/todos",
 );
 
 app.use("/", routes);
